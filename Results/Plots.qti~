@@ -1,0 +1,342 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	6
+<table>
+Error	40	2	12/20/16 4:59 PM
+geometry	0	610	445	220	minimized	
+header	Grid Size (N)[X]	Error Norm[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	10	0.0157679
+1	20	0.00753492
+2	30	0.00494358
+3	40	0.00367771
+4	50	0.00292778
+5	60	0.00243182
+6	70	0.00207952
+7	80	0.00181637
+8	90	0.00161233
+9	100	0.0014495
+10	110	0.00131654
+11	120	0.00120592
+12	130	0.00111245
+13	140	0.00103242
+14	150	0.000963138
+15	160	0.000902568
+16	170	0.000849165
+17	180	0.000801728
+18	190	0.000759311
+19	200	0.000721156
+20	210	0.000686653
+21	220	0.0006553
+22	230	0.000626685
+23	240	0.000600465
+24	250	0.00057635
+25	260	0.000554098
+26	270	0.0005335
+27	280	0.000514379
+28	290	0.000496581
+29	300	0.000479973
+30	310	0.00046444
+31	320	0.000449881
+32	330	0.000436207
+33	340	0.00042334
+34	350	0.00041121
+35	360	0.000399756
+36	370	0.000388922
+37	380	0.000378661
+38	390	0.000368927
+39	400	0.00035968
+</data>
+</table>
+<multiLayer>
+Error_g	1	1	12/20/16 5:00 PM
+geometry	196	610	728	674	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	4	709	604
+<PageGeometry>0.00694444	0.00638978	0.984722	0.964856</PageGeometry>
+PlotTitle	Error Norm vs Grid Size	#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Log(Grid Size(N))	log(Error Norm)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	20	75	0	0	0
+ScaleFont0	Ubuntu	17	75	0	0	0
+ScaleFont1	Ubuntu	17	75	0	0	0
+ScaleFont2	Ubuntu	17	75	0	0	0
+ScaleFont3	Ubuntu	17	75	0	0	0
+AxisFont0	Ubuntu	17	50	0	0	0
+AxisFont1	Ubuntu	17	50	0	0	0
+AxisFont2	Ubuntu	17	50	0	0	0
+AxisFont3	Ubuntu	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Error_Grid Size (N)	Error_Error Norm	2	1	#000000	0	2	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
+scale	0	0.0002055978	0.016	0	8	5	3	0
+scale	1	0.0002055978	0.016	0	8	5	3	0
+scale	2	6.1	450	0	4	5	3	0
+scale	3	6.1	450	0	4	5	3	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+s_scal	30	4	12/20/16 5:51 PM
+geometry	784	610	445	220	minimized	
+header	procs[X]	speedup[Y]	serialfraction[Y]	scalingefficiency[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	1	1	0	100
+1	24	27.5245027255	0.0055673757	96.6854280231
+2	36	34.9692424998	0.0008421748	97.1367847217
+3	48	41.0129433518	0.0036247284	85.443631983
+4	60	51.7581820805	0.0026989323	86.2636368008
+5	72	59.4971712837	0.0029597404	82.6349601162
+6	84	76.5977833088	0.001164307	91.1878372723
+7	96	80.6904589302	0.0019971762	84.0525613856
+8	108	98.2296709278	0.0009295713	90.9533990072
+9	120	101.3618159762	0.0015451913	84.4681799802
+10	132	115.1361799399	0.0011180799	87.2243787423
+11	144	101.5685752109		69.0379849415
+</data>
+</table>
+<multiLayer>
+s_speed	1	1	12/20/16 5:52 PM
+geometry	392	610	535	566	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	4	517	496
+<PageGeometry>0.00948767	0.00772201	0.981025	0.957529</PageGeometry>
+PlotTitle	Speed Up vs Numbers of Processes 	#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Number of Procs	Speedup		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	17	75	0	0	0
+ScaleFont0	Ubuntu	14	75	0	0	0
+ScaleFont1	Ubuntu	14	75	0	0	0
+ScaleFont2	Ubuntu	14	75	0	0	0
+ScaleFont3	Ubuntu	14	75	0	0	0
+AxisFont0	Ubuntu	14	50	0	0	0
+AxisFont1	Ubuntu	14	50	0	0	0
+AxisFont2	Ubuntu	14	50	0	0	0
+AxisFont3	Ubuntu	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	s_scal_procs	s_scal_speedup	2	1	#000000	0	2	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+scale	0	0	120	0	7	5	0	0
+scale	1	0	120	0	7	5	0	0
+scale	2	0	145	0	9	5	0	0
+scale	3	0	145	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+s_serial	1	1	12/20/16 5:55 PM
+geometry	588	610	632	589	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	6	614	522
+<PageGeometry>0.00801282	0.0110906	0.983974	0.96488</PageGeometry>
+PlotTitle	Serial Fraction vs Number of Processes	#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Number of Procs	Serial Fraction		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	18	75	0	0	0
+ScaleFont0	Ubuntu	15	75	0	0	0
+ScaleFont1	Ubuntu	15	75	0	0	0
+ScaleFont2	Ubuntu	15	75	0	0	0
+ScaleFont3	Ubuntu	15	75	0	0	0
+AxisFont0	Ubuntu	15	50	0	0	0
+AxisFont1	Ubuntu	15	50	0	0	0
+AxisFont2	Ubuntu	15	50	0	0	0
+AxisFont3	Ubuntu	15	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	s_scal_procs	s_scal_serialfraction	2	1	#000000	0	2	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+scale	0	0	0.006	0	7	5	0	0
+scale	1	0	0.006	0	7	5	0	0
+scale	2	20	140	0	7	5	0	0
+scale	3	20	140	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph1	1	1	12/20/16 5:59 PM
+geometry	980	610	674	625	minimized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	656	559
+<PageGeometry>0.00750751	0.00866551	0.984985	0.968804</PageGeometry>
+PlotTitle	Scaling Efficiency vs Number of Processes	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Number of Processes	Scaling Efficiency (%)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	19	75	0	0	0
+ScaleFont0	Ubuntu	16	75	0	0	0
+ScaleFont1	Ubuntu	16	75	0	0	0
+ScaleFont2	Ubuntu	16	75	0	0	0
+ScaleFont3	Ubuntu	16	75	0	0	0
+AxisFont0	Ubuntu	16	50	0	0	0
+AxisFont1	Ubuntu	16	50	0	0	0
+AxisFont2	Ubuntu	16	50	0	0	0
+AxisFont3	Ubuntu	16	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	s_scal_procs	s_scal_scalingefficiency	2	1	#000000	0	2	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+scale	0	65	105	0	9	5	0	0
+scale	1	65	105	0	9	5	0	0
+scale	2	-20	160	0	10	5	0	0
+scale	3	-20	160	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
