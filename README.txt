@@ -10,4 +10,6 @@ NOTE: Parallel codes will require mkl library to be installed.
 	  g++ -O2 <code_name>.cpp -lblas -o <code_name>
 
 	  For serial implementation with lapack:
-	  g++ -O2 <code_name>.cpp -lblas -llapack -o <code_name>	    
+	  g++ -O2 <code_name>.cpp -lblas -llapack -o <code_name>
+
+	  Python implementation requires scipy to be installed	    
