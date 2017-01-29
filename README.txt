@@ -7,7 +7,8 @@ INSTRUCTIONS FOR BUILDING THE CODE:
 NOTE: 
 		Parallel codes will require mkl library to be installed.
 
-	  	Serial codes will require CBLAS & LAPACK to be installed. Serial Codes can be compiled using:
+	  	Serial codes will require CBLAS & LAPACK to be installed. Serial Codes can be
+	  	compiled using:
 			g++ -O2 <code_name>.cpp -lblas -o <code_name>
 
 		For serial implementation with lapack:
