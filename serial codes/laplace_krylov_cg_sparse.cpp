@@ -7,9 +7,11 @@
 
 using namespace std;
 
-vector<double> Sparse_CRS_MVMult(int N, vector<int> &row, vector<int> &col, vector<double> &val, vector<double> &v)
+template <class T>
+
+vector<T> Sparse_CRS_MVMult(int N, vector<int> &row, vector<int> &col, vector<T> &val, vector<T> &v)
 {
-	vector<double> result;
+	vector<T> result;
 	result.resize(N);	
 	for (int i = 0; i < N; ++i)
 	{	

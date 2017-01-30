@@ -11,21 +11,22 @@ using namespace std;
 
 #define root 0
 
-vector<double> Sparse_CRS_MVMult(int N, int start, int end, vector<int> &row, vector<int> &col, vector<double> &val, vector<double> &v)
+template <class T>
+
+vector<T> Sparse_CRS_MVMult(int N, vector<int> &row, vector<int> &col, vector<T> &val, vector<T> &v)
 {
-	vector<double> result;
+	vector<T> result;
 	result.resize(N);	
 	for (int i = 0; i < N; ++i)
 	{	
 		result[i]=0;
 		for (int k = row[i]; k < row[i+1]; ++k)
 		{
-			result[i]=result[i]+val[k]*v[col[k]-start];			
+			result[i]=result[i]+val[k]*v[col[k]];			
 		}
 	}	
 	return result;
 }
-
 void proc_indices(int N, int np, int my_p, int count, int start, int end, int ind[3])
 {
 	count = N/np;
