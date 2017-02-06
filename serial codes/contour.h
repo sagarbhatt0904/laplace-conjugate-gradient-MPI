@@ -1,13 +1,20 @@
-// Written by Sagar Bhatt
+/*
+
+Written by Sagar Bhatt
+
+This header can be used to plot 2D contours.
+It requires the file name "*.vtk", variable name, Square Grid size (for any other grid geometry, the dimensions need to be edited) and a 2D vector containing the data to be plotted.
+
+*/
+
 #include <fstream>
 
 using namespace std;
 
-// Function to plot contours
-void contour(vector<vector<double> > &x, int N, char* str)
+void contour(vector<vector<double> > &x, int N, char* str, char* str2)
 {
 	ofstream fout(str);
-	fout<<"# vtk DataFile Version 2.0\nVTK by Sagar Bhatt\n"<<"ASCII\n"<<"DATASET STRUCTURED_POINTS\n"<<"DIMENSIONS "<<N<<" "<<N<<" "<<1<<"\nSPACING 1 1 1 \n"<<"ORIGIN 0 0 0\n"<<"POINT_DATA "<<N*N<<"\nSCALARS U float 1\n"<<"LOOKUP_TABLE default\n";
+	fout<<"# vtk DataFile Version 2.0\nVTK from matlab\nASCII\nDATASET STRUCTURED_POINTS\nDIMENSIONS "<<N<<" "<<N<<" "<<1<<"\nSPACING 1 1 1 \nORIGIN 0 0 0\nPOINT_DATA "<<N*N<<"\nSCALARS "<<str2<<" float 1\n"<<"LOOKUP_TABLE default\n";
 	for (int i = 0; i < N; ++i)
 	{
 		for (int j = 0; j < N; ++j)

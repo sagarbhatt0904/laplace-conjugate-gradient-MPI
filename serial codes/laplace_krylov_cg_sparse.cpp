@@ -195,7 +195,7 @@ int main(int argc, char const *argv[])
 		
 	// Plotting
 	char title[]="u_CG_sparse.vtk";
-	contour(u,N,title);
+	contour(u,N,title,"U");
 
    return 0;
 }

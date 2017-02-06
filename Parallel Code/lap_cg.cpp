@@ -266,7 +266,7 @@ int main(int argc, char *argv[])
 	    }
 	    // Plotting
 		char title[]="u_CG_mpi.vtk";
-		contour(u,N,title);
+		contour(u,N,title,"U");
   	}
 
   	ierr=MPI_Finalize();
