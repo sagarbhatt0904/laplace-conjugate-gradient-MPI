@@ -120,6 +120,9 @@ int main(int argc, char *argv[])
 			{
 				if (i!=0 && i%(N1)==0)
 				{
+					val.push_back(0);
+					col.push_back(j);
+					k++;	
 				}
 				else
 				{
@@ -132,6 +135,9 @@ int main(int argc, char *argv[])
 			{
 				if (j!=0 && j%(N1)==0)
 				{
+					val.push_back(0);
+					col.push_back(j);
+					k++;
 				}
 				else
 				{
