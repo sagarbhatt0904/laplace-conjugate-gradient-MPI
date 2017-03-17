@@ -189,7 +189,6 @@ int main(int argc, char *argv[])
 	}
 	
 	
-
 	// Computing first residual
 	
 	for (int i = 0; i < B.size(); ++i)
@@ -227,8 +226,8 @@ int main(int argc, char *argv[])
 		alpha = rho/ap;
 		ierr=MPI_Allreduce(&alpha, &alpha_g, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
 		alpha=alpha_g;
-		cblas_daxpy(p.size(),alpha, p.data(),1,U.data(),1);
-		cblas_daxpy(r.size(),-alpha, a.data(),1,r.data(),1);
+		cblas_daxpy(p.size(),alpha, p.data(),1,U.data(),1); 
+		cblas_daxpy(r.size(),-alpha, a.data(),1,r.data(),1); 
 		z=Sparse_CRS_MVMult(r.size(), start, end, row_m, col_m, val_m, r);
 		rho_new=cblas_ddot(r.size(),r.data(),1,z.data(),1);
 		ierr=MPI_Allreduce(&rho_new, &rho_new_g, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);

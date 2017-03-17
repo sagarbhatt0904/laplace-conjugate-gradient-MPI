@@ -1,10 +1,16 @@
-#INSTRUCTIONS FOR BUILDING THE CODE:
+# ABOUT THE CODE:
 
-1. Launch terminal in the 'Parallel Code' directory and type 'make' 
+* Folder:
+	* Parallel Code: This folder contains parallel code with MPI. Use ```make``` command to build the code 
+	* serial codes: This folder contains:
+		* analytical.cpp : analytical solution to laplace equation
+		* contour.h : header needed to generate VTK file
+		* laplace.py : python solution to the problem using conjugate gradient method
+		* laplace_krylov_cg_sparse.cpp : solution to the problem using conjugate gradient method
+		* laplace_lapack.cpp : Direct solution to the problem. 
+		* Object-Oriented Approach: This folder contains object oriented approach to the problem. Refer its README for further information
 
-2. execute 'lap', it will generate u_CG_mpi.vtk file which can be used to plot the contour in Paraview.
-
-###NOTE: 
+### NOTE: 
 		Parallel codes will require mkl library to be installed.
 
 	  	Serial codes will require CBLAS & LAPACK to be installed. Serial Codes can be
