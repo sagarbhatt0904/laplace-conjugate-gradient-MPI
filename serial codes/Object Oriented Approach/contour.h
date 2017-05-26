@@ -2,8 +2,6 @@
 
 Written by Sagar Bhatt
 
-This header can be used to plot 2D contours.
-It requires the file name "*.vtk", variable name, Square Grid size (for any other grid geometry, the dimensions need to be edited) and a 2D vector containing the data to be plotted.
 
 */
 
